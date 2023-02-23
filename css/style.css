@@ -1,0 +1,93 @@
+
+body {
+    background-color: rgb(70, 74, 73);
+}
+
+
+/* elementos de clase */
+h1 {
+    color: aquamarine;
+    font-size: 50px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+    color: aquamarine;
+    font-size: 50px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h3 {
+    color: aquamarine;
+    font-size: 50px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* elementos de clase */
+p {
+    color: darkcyan;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 900;
+}
+a {
+    color: red;
+    font-size: 30px;
+    text-align: justify;
+    font-style: italic;
+    font-weight: 900;
+}
+
+/* clases atadas a un elemento */
+
+h1.font-especial {
+    font-family: 'Bebas Neue',sans-serif ;
+}
+h2.font-especial{
+    font-family: 'Bebas Neue',sans-serif ;
+}
+h3.font-especial{
+    font-family: 'Bebas Neue',sans-serif ;
+}
+
+a.font-especial{
+    font-family: 'Bebas Neue',sans-serif ;
+}
+
+/* gajraj-one-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Gajraj One';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/gajraj-one-v1-latin-regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/gajraj-one-v1-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/gajraj-one-v1-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/gajraj-one-v1-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/gajraj-one-v1-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/gajraj-one-v1-latin-regular.svg#GajrajOne') format('svg'); /* Legacy iOS */
+  }
+
+
+  /* bebas-neue-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/bebas-neue-v9-latin-regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/bebas-neue-v9-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/bebas-neue-v9-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/bebas-neue-v9-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/bebas-neue-v9-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/bebas-neue-v9-latin-regular.svg#BebasNeue') format('svg'); /* Legacy iOS */
+  }
