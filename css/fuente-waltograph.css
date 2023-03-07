@@ -22,7 +22,7 @@ span {
     font-family: 'waltograph';
     font-style: normal;
     font-weight: 400;
-    src: url('../fonts/waltograph42.otf'); 
+    src: url('../fonts/waltograph42.otf'),
          url('../fonts/waltographUI.ttf');  
     
   }
