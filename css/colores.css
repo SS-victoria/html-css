@@ -1,3 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(137, 137, 137);
+}
+h1 {
+    color: slateblue;
+    font-size: 7em;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'waltograph';
+}
+h2 {
+    color: slateblue;
+    font-size: 3em;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Cinzel Decorative';
+}
 .box-colores {
     display: flex;
     flex-direction: row;
@@ -13,11 +36,72 @@
 span {
     color: white;
     font-size: 1.5em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'bebas neue';;
 }
-.color-rojo {
-    background-color: red;
+.color-darkcyan {
+    background-color: darkcyan;
+}
+
+.color-coral {
+    background-color: coral;
+}
+.color-aquamarine {
+    background-color: aquamarine;
+}
+.color-196-132-12 {
+    background-color: rgb(196, 132, 12);
+}
+.color-57-3-144 {
+    background-color: rgb(57, 3, 144);
 }
 .color-255-0-0 {
     background-color: rgb(255, 0, 0);
 }
+.color-678aed {
+    background-color: #678aed;
+}
+.color-777aaa {
+    background-color: #777aaa;
+}
+.color-efe321 {
+    background-color: #efe321;
+}
+
+/* bebas-neue-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/bebas-neue-v9-latin-regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/bebas-neue-v9-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/bebas-neue-v9-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/bebas-neue-v9-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/bebas-neue-v9-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/bebas-neue-v9-latin-regular.svg#BebasNeue') format('svg'); /* Legacy iOS */
+  }
+
+  /* cinzel-decorative-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Cinzel Decorative';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/cinzel-decorative-v14-latin-regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/cinzel-decorative-v14-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/cinzel-decorative-v14-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/cinzel-decorative-v14-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/cinzel-decorative-v14-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/cinzel-decorative-v14-latin-regular.svg#CinzelDecorative') format('svg'); /* Legacy iOS */
+  }
+
+  /* bebas-neue-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'waltograph';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/waltograph42.otf'),
+         url('../fonts/waltographUI.ttf');  
+    
+  }
