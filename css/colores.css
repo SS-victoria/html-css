@@ -13,6 +13,10 @@ h1 {
     justify-content: center;
     font-family: 'waltograph';
 }
+a {
+    font-size: 2em;
+    color: white;
+}
 h2 {
     color: slateblue;
     font-size: 3em;
