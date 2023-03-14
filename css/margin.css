@@ -1,0 +1,21 @@
+.box-style {
+    width: 300px;
+    height: 300px;
+}
+.box-1 {
+    width: 300px;
+    height: 300px;
+    background-color: aquamarine;
+}
+.box-2 {
+    width: 300px;
+    height: 300px;
+    /* grosor del borde, tipo de borde y color de borde */
+    border: 2px solid darkcyan ;
+}
+.box-3 {
+    background-color: bisque;
+}
+.box-4 {
+  background-color: aqua;
+}
