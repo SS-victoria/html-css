@@ -10,7 +10,10 @@ div {
     align-items: center;
     height: 100vh;
 }
-
+a {
+    font-size: 2em;
+    color: white;
+}
 span {
     font-family: 'Bebas Neue';
     font-size: 13em;
