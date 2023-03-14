@@ -20,6 +20,12 @@ a {
     padding-right: 25px; */
     padding: 15px 50px;
     text-align: justify;
+    /* por defecto el valor biene en 0 el espacio entre letras */
+    letter-spacing: .1em;
+    /* por defecto viene en 0 el espacio entre palabras */
+    word-spacing: .2em;
+    /* por defecto viene en 1.2em el espacio entre renglones */
+    line-height: 2em;
 
 
 }
