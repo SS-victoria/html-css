@@ -1,0 +1,64 @@
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.table-box {
+    display: flex;
+    justify-content: center;
+}
+
+th, td {
+    padding: 10px 15px;
+    border-radius: 15px;
+    color: white;
+}
+
+table {
+    border-collapse: collapse;
+    
+    font-size: 1.5em;
+    font-family: sans-serif;
+}
+
+
+.col-style {
+    width: 150px;
+    color: white;
+}
+
+.img-check {
+    width: 50px;
+    display: block;
+    margin:auto ;
+}
+
+table tbody tr:nth-child(1n+4) {
+	background: rgb(226, 226, 226);
+    border-radius: 15px;
+}
+
+table tbody tr:nth-child(2n+4) {
+	background: rgb(198, 198, 198);
+}
+.col-pla{
+    background-color: rgb(151, 207, 44);
+}
+.col-fam {
+    background-color: rgb(70, 183, 67);
+}
+.col-bro{
+    background-color: rgb(48, 176, 67);
+}
+.col-gol{
+    background-color: rgb(45, 170, 70);
+}
+.col-plat{
+    background-color: rgb(47, 162, 69);
+}
+.col-pre{
+    background-color: rgb(151, 207, 44);
+}
+.col-mes{
+    background-color: rgb(70, 183, 67);
+}
