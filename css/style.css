@@ -2,7 +2,10 @@
 body {
     background-color: rgb(70, 74, 73);
 }
-
+ul {
+    list-style: none;
+    text-decoration: none;
+}
 
 /* elementos de clase */
 h1 {
