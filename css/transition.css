@@ -105,3 +105,13 @@ cursor: pointer;
 .box-toggle-off:hover, .box-toggle-on:hover{
     cursor: pointer;
 }
+
+.obs{
+    background-color: white;
+    color: black;
+}
+
+.obs-on{
+    background-color: black;
+    color: beige;
+}
