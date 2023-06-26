@@ -1,6 +1,6 @@
 let boxToggle = document.getElementById("boxToggle");
 let toggle = document.getElementById("toggle");
-let obs = document.getElementById("obs")
+let obs = document.getElementById("obs");
 
 boxToggle.addEventListener("click", function(){
     if (toggle.classList.contains("toggle-off")){
