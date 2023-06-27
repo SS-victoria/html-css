@@ -1,4 +1,13 @@
+* {
+    text-decoration: none;
+    list-style: none;
+}
 a {
+    
+    padding-top: 20px;
+    padding-left: 20px;
+    display: flex;
+    font-size: 5em;
     font-size: 2em;
     color: red;
 }

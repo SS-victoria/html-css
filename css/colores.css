@@ -14,8 +14,12 @@ h1 {
     font-family: 'waltograph';
 }
 a {
-    font-size: 2em;
+    font-size: 5em;
     color: white;
+    padding-top: 20px;
+    padding-left: 20px;
+    text-decoration: none;
+    font-family: 'waltograph';
 }
 h2 {
     color: slateblue;
@@ -109,3 +113,5 @@ span {
          url('../fonts/waltographUI.ttf');  
     
   }
+
+

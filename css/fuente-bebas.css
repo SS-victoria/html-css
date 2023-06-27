@@ -2,21 +2,29 @@
     margin: 0;
     padding: 0;
 }
-
-div {
+body{
     background-color: rgb(24, 24, 24);
+}
+div {
+    
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    padding-top: 190px;
+    height: 100px;
 }
 a {
-    font-size: 2em;
-    color: white;
+    text-decoration: none;
+    display: flex;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-family: 'Bebas Neue';
+    font-size: 3em;
+    color: rgb(230, 3, 3);
 }
 span {
     font-family: 'Bebas Neue';
-    font-size: 13em;
+    font-size: 20em;
     color: rgb(230, 3, 3);
 }
 

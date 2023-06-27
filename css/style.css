@@ -1,97 +1,304 @@
-
-body {
-    background-color: rgb(70, 74, 73);
+/*@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+    text-decoration: none;
+    
 }
-ul {
+body {
+    background-image: url('../img/thumb-1920-949049.png');
+    background-size: cover;
+}
+
+
+
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+h1 {
+    color: white;
+}
+/* HEADER SUPERIOR */
+
+.heder__superior {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+.search input {
+    width: 300px;
+    padding: 7px;
+}
+/* BARRA MENU */
+.container__menu{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(22, 35, 77);
+    padding: 0px 260px;
+}
+
+.menu{
+    max-width: 1200px;
+    margin: auto;
+    height: 100%;
+}
+nav {
+    height: 100%;
+}
+nav>ul{
+    height: 100%;
+    display: flex;
+}
+nav  ul  li {
+    height: 100%;
     list-style: none;
+    position: relative;
+}
+
+nav > ul > li:first-child >a {
+    /*background-image: url(../img/hogar.png);*/
+    background-size: 24px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 20px 40px;
+}
+
+nav > ul > li:first-child:hover >a {
+    /*background-image: url(../img/hogar.png);*/
+    background-size: 24px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+nav > ul > li > a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: all 300ms ease;
+}
+
+nav > ul > li > a:hover {
+    transform: scale(1.1);
+    background-color: rgb(42, 66, 140);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);
+}
+#selected{
+    transform: scale(1.1);
+    background-color: rgb(42, 66, 140);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);
+}
+
+/*SUBMENU*/
+
+nav ul li ul {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);
+    position: absolute;
+    top: 90px;
+    left: -5px;
+    padding: 14px 0px;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 10;
+    transition: all 300ms ease;
+}
+
+nav ul li:hover ul {
+    visibility: visible;
+    opacity: 1;
+    top: 70px;
+}
+
+nav ul li ul:before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 12px solid white;
+    position: absolute;
+    top: -12px;
+    left: 20px;
+}
+
+nav ul li ul li a{
+    display: block;
+    color: rgb(190, 34, 34);
+    padding: 6px;
+    padding-left: 14px;
+    margin-top: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: all 300ms ease;
+}
+
+nav ul li ul li a:hover {
+    background: #0074C7;
+    color: #fff;
+    transform: scale(1.1);
+    padding-left: 30px;
+    font-size: 14px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);
+}
+/*ELEMENTOS RESPONSIVOS*/
+
+.icon__menu {
+    font-size: 26px;
+    color: white;
+    cursor: pointer;
+    width: 26px;
+    height: 100px;
+    display: none;
+    align-items: center;
+}
+
+#label__check{
+    width: 26px;
+    height: 100%;
+    display: none;
+
+}
+
+#check__menu {
+    display: none;
+
+}
+@media screen and (max-width: 720px){
+    .search input{
+        display: none;
+    }
+    .heder__superior{
+        padding: 10px;
+    }
+
+    nav > ul {
+        flex-direction: column;
+        background-color: #023877;
+        position: fixed;
+        left: o;
+        top: 158px;
+        width: 100%;
+        height: 0px;
+        transition: all 300ms ease;
+        z-index: 100;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    nav >ul >li > a:hover {
+        transform: scale(1);
+    }
+    nav ul li ul {
+        left: 90px;
+    }
+
+    nav ul li:hover ul {
+        left: 50px;
+    }
+
+    nav ul li:first-child a {
+        background-position: 20px;
+    }
+
+    #selected {
+        transform: scale(1);
+    }
+
+    #label__check{
+        display: block;
+    }
+    .icon__menu{
+        display: flex;
+    }
+
+    #check__menu:checked ~ nav>ul{
+        height: 300px;
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.menu-horizontal > li > a {
+    display: block;
+    padding: 5px 5px;
+    color:  white;
     text-decoration: none;
 }
-
-/* elementos de clase */
-h1 {
-    color: aquamarine;
-    font-size: 50px;
-    text-align: center;
-    font-style: italic;
-    font-weight: 900;
-    font-family: 'Courier New', Courier, monospace;
+.menu-horizontal > li:hover {
+    background-color: rgb(42, 66, 140);
 }
-
-h2 {
-    color: aquamarine;
-    font-size: 50px;
-    text-align: center;
-    font-style: italic;
-    font-weight: 900;
-    font-family: 'Courier New', Courier, monospace;
+.menu-vertical {
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(76, 120, 217, 0.3);
 }
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
 
-h3 {
-    color: aquamarine;
-    font-size: 50px;
-    text-align: center;
-    font-style: italic;
-    font-weight: 900;
-    font-family: 'Courier New', Courier, monospace;
 }
-
-/* table {
-    style="width: 500px;"
+.menu-vertical li:hover {
+    background-color: rgb(54, 87, 182);
 }
-
-table, th, td {
-    border: 3px solid black
-    
-   
-}
-
-table, ul {
-    border: 3px solid rgb(119, 11, 11)
-    
-   
-} */
-
-/* elementos de clase */
-p {
-    color: darkcyan;
-    font-size: 30px;
-    font-style: italic;
-    font-weight: 900;
-}
-a {
+.menu-vertical li a {
+    display: block;
     color: white;
-    font-size: 30px;
-    text-align: justify;
-    font-style: italic;
-    font-weight: 900;
-}
-
-/* clases atadas a un elemento */
-
-h1.font-especial {
-    font-family: 'Bebas Neue',sans-serif ;
-}
-h2.font-especial{
-    font-family: 'Bebas Neue',sans-serif ;
-}
-h3.font-especial{
-    font-family: 'Bebas Neue',sans-serif ;
-}
-
-a.font-especial{
-    font-family: 'Bebas Neue',sans-serif ;
-}
-
-  /* bebas-neue-regular - latin */
-@font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Bebas Neue';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/bebas-neue-v9-latin-regular.eot'); /* IE9 Compat Modes */
-    src: url('../fonts/bebas-neue-v9-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/bebas-neue-v9-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/bebas-neue-v9-latin-regular.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/bebas-neue-v9-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/bebas-neue-v9-latin-regular.svg#BebasNeue') format('svg'); /* Legacy iOS */
-  }
+    padding: 15px 15px 15px;
+    text-decoration: none;
+} */
