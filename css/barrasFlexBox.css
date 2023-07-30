@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.padre {
+    background-color: rgb(234, 232, 233) ;
+    height: 95vh;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.icon{
+    height: 22px;
+    padding-top: 2px;
+    display: flex;
+    justify-content: center;
+    
+}
+.icon-bar {
+    width: 20px;
+    height: 20px;  
+} 
+
+h1 {
+    text-align: center;
+    font-size: 1em;
+}
+
+.container-bar-1 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+
+
+.box-bar {
+    display: flex;
+    width: 100px;
+    height: 20px;
+    background-color: white;
+    margin-top: 70px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    justify-content: center;
+    box-shadow: 7px 5px 9px 0px rgba(0,0,0,0.9);
+
+} 
+
+.bar1 {
+    color: rgb(255, 195, 1);
+}
+.bar2 {
+    color: rgb(1, 163, 238);
+}
+.bar3 {
+    color: rgb(9, 86, 150);
+}
+.bar4 {
+    color: rgb(146, 208, 0);
+}
+.bar5 {
+    color: rgb(252, 16, 122);
+}
+
+.box-bar2 {
+    display: flex;
+    width: 100px;
+    height: 65vh ;
+    background-color: rgb(211, 209, 210);
+    margin-top: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    justify-content: center;
+    box-shadow: 8px 10px 25px -7px rgba(0,0,0,0.9) inset;
+
+}
+
+.bar-color1 {
+    width: 100%;
+    background-color: rgb(255, 195, 1);
+    margin-top: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    color: white;
+    box-shadow: 8px -2px 25px -7px rgba(0,0,0,0.9) inset;
+}
+
+
+.bar-color2 {
+    width: 100%;
+    background-color: rgb(1, 163, 238);
+    margin-top: 7vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    color: white;
+    box-shadow: 8px 0px 25px -7px rgba(0,0,0,0.9) inset;
+}
+.bar-color3 {
+    background-color: rgb(9, 86, 150);
+    margin-top: 23vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    color: white;
+    box-shadow: 8px 0px 25px -7px rgba(0,0,0,0.9) inset;
+}
+.bar-color4 {
+    background-color: rgb(146, 208, 0);
+    margin-top: 12vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    color: white;
+    box-shadow: 8px 0px 25px -7px rgba(0,0,0,0.9) inset;
+}
+.bar-color5 {
+    background-color: rgb(252, 16, 122);
+    margin-top: 34vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    color: white;
+    box-shadow: 8px 0px 25px -7px rgba(0,0,0,0.9) inset;
+} 
+
+
+
+
+
+
+.bar-color1 p {
+    margin-top: 10px;
+}
+
+.bar-color2 p {
+    margin-top: 10px;
+}
+.bar-color3 p {
+    margin-top: 10px;
+}
+.bar-color4 p {
+    margin-top: 10px;
+}
+.bar-color5 p {
+    margin-top: 10px;
+}
+
+
+
+.bar-color1 i {
+    margin-top: 40px;
+    font-size: 2.5em;
+} 
+
+.bar-color2 i {
+    font-size: 2.5em;
+    margin-top: 180px;
+}
+
+.bar-color3 i {
+    font-size: 2.5em;
+    margin-top: 80px;
+}
+
+.bar-color4 i {
+    font-size:  2.5em;
+    margin-top: 150px;
+}
+
+.bar-color5 i {
+    font-size: 2.5em;
+    margin-top: 15px;
+}
+
+.border{
+    width: 60px;
+    height: 50px;
+    margin-top: 20px;
+    border: 4px solid white;
+    border-radius: 20%;
+    
+}
+
+.border span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+
+
+.data {
+    padding-top: 5px;
+    font-size: 10px;
+}
+
+
+
+.num {
+    font-size: 25px;
+}
