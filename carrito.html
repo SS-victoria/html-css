@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+    <link rel="stylesheet" href="css/carrito.css">
+
+</head>
+<body>
+    <div class="box-img-ipad-mini">
+        <img class="img-ipad-mini" src="img/ipad_mini.png" alt="imagen ipad">
+        <div class="main-content">
+                    <label class="lbl-subtotal">Subtotal $<span id="subTotal">0</span> </label>
+                <div class="box-proceder-pago">
+                    <label>Proceder al pago (<span id="cantProductos">0 Productos</span>)</label>
+                </div>
+            <div class="box-producto">
+                <div class="box-img">
+                    <img class="img-producto" src="img/react.jpg" alt="react">
+                    <div class="box-minus-plus">
+                        <div id="boxMinus" class="box-minus">-</div>
+                        <div id="boxUnidades" class="box-unidades">0</div>
+                        <div id="boxPlus" class="box-plus">+</div>
+                    </div>
+                </div>
+                <div class="box-info">
+                    <h3 class="book-title">The Road To React</h3>
+                    <label class="book-description">Your journey to master plain yet pracmatic React.js</label>
+                    <label class="book-autor">Por Robin Wieruch</label>
+                    <label class="tipo-tapa">Tapa Blanda</label>
+                    <label class="txt-precio-unidad">cop. <span id="precio" class="precio">$0</span></label>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+    <script src="js/carrito.js"></script>
+</body>
+</html>
