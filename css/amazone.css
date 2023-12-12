@@ -14,7 +14,8 @@
 .porcentaje5{
     height:35px;
     background-color: gold;
-    width: 160px;
+    width: 0;
+    transition: width 1200ms;
 }
 .porcentaje4{
     height:35px;
@@ -34,7 +35,7 @@
 .porcentaje1{
     height:35px;
     background-color: gold;
-    width: 20px;
+    width: 20;
 }
 span{
     display: flex;

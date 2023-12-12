@@ -3,8 +3,11 @@ let puntaje4 = document.getElementById('puntaje4');
 let puntaje3 = document.getElementById('puntaje3');
 let puntaje2 = document.getElementById('puntaje2');
 let puntaje1 = document.getElementById('puntaje1');
+let porcentajeCalificacion5 = document.getElementById('porcentajeCalificacion5');
+let boxTextoCalificacion5 = document.getElementById('boxTextoCalificacion5');
 
 let btnGraficar = document.getElementById('Graficar')
+
 
 btnGraficar.addEventListener('click', function(){
  let   val5 = parseInt(puntaje5.value);
@@ -21,5 +24,12 @@ btnGraficar.addEventListener('click', function(){
    let  por2 = (val2*100)/sumaTotal;
    let  por1 = (val1*100)/sumaTotal;
 
-    alert(por1);
+    //alert(sumaTotal);
+
+    porcentajeCalificacion5.style.width = (por5 *2) + "px";
+    let spanPorcentaje = document.createElement("span");
+    boxTextoCalificacion5.appendChild(spanPorcentaje);
+    spanPorcentaje.innerHTML = porcentajeCalificacion5.toFixed(0) + "%";
+    spanPorcentaje.setAttribute("class", "span-porcentaje");
+
 });
